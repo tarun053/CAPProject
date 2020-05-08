@@ -1,5 +1,5 @@
 ID: BusinessApp
-_schema-version: "2.1"
+_schema-version: '2.1'
 version: 0.0.1
 modules:
   - name: BusinessApp-db
@@ -19,11 +19,13 @@ modules:
     provides:
       - name: srv_api
         properties:
-          url: ${default-url}
+          url: '${default-url}'
     requires:
       - name: BusinessApp-db-hdi-container
 resources:
   - name: BusinessApp-db-hdi-container
     type: com.sap.xs.hdi-container
     properties:
-      hdi-container-name: ${service-name}
+      hdi-container-name: '${service-name}'
+    parameters:
+      service: hanatrial
