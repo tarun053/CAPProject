@@ -1,4 +1,4 @@
-namespace BusinessApp.db;
+namespace BusinessApp.db; 
 
 context Employee {
 
