@@ -7,6 +7,6 @@ steps:
     deployTool: 'mtaDeployPlugin'
     deployType: 'standard'
     cloudFoundry:
-      org: '9232a0e6trial'
+      org: '47dac577trial'
       space: 'dev'
       credentialsId: 'CF_CREDENTIALSID'
